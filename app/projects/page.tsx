@@ -41,6 +41,7 @@ const projects: Project[] = [
   },
   {
     title: "RoboRooks",
+    codeHref: "https://github.com/ass9529/roborooks",
     meta: "Senior Design Capstone",
     desc: "An autonomous chess-playing robot",
     longDesc:
