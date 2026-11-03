@@ -207,7 +207,7 @@ export default function ProjectsPage() {
         )}
 
         <footer className="mt-14 text-center text-sm text-[rgb(var(--muted))]">
-          © {new Date().getFullYear()} Jomi Okuwobi
+          © {new Date().getFullYear()} Aparna Sobhirala
         </footer>
       </div>
     </main>
