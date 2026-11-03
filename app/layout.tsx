@@ -6,7 +6,7 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata = {
   title: "Aparna Sobhirala",
-  description: "Aparna Sobhirala — Software Engineer portfolio",
+  description: "Aparna Sobhirala - Software Engineer portfolio",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

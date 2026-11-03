@@ -59,10 +59,10 @@ export default function Home() {
             <ExperienceCard
               role="Software Engineering Intern"
               org="Sony Interactive Entertainment / PlayStation"
-              date="May — Aug 2025"
+              date="May - Aug 2025"
               bullets={[
                 "Designed and shipped a webhook-driven Python service that combined change history across four repositories with Jira records and delivered release documentation in Slack.",
-                "Integrated the OpenAI API where human-authored records were missing, validated output against historical production data, and reduced manual effort by roughly 95%, saving an estimated 10–15 engineering hours monthly.",
+                "Integrated the OpenAI API where human-authored records were missing, validated output against historical production data, and reduced manual effort by roughly 95%, saving an estimated 10-15 engineering hours monthly.",
                 "Monitored the service after launch, investigated production issues, and documented it for other engineers. Worked with Jenkins, Docker, Kubernetes, and AWS Secrets Manager.",
               ]}
               tags={["Python", "OpenAI API", "Jira", "Slack", "CI/CD"]}
@@ -70,7 +70,7 @@ export default function Home() {
             <ExperienceCard
               role="Research Engineering Fellow"
               org="ACM, UT Arlington"
-              date="Jan — Apr 2025"
+              date="Jan - Apr 2025"
               bullets={[
                 "Built a reproducible Python evaluation pipeline to investigate gender bias in machine translation across seven language models and 4,900 outputs.",
                 "Developed a Pronoun Bias Index to compare results across model families and presented findings to 130+ attendees at the UTA STEM Symposium.",
@@ -80,7 +80,7 @@ export default function Home() {
             <ExperienceCard
               role="Corporate Officer & Sponsorship Lead"
               org="HackUTA"
-              date="Jan — Oct 2025"
+              date="Jan - Oct 2025"
               bullets={[
                 "Led a 15-member team and managed sponsorship outreach for a 500+ participant hackathon, pitching 10+ technology companies and securing $15,000+ in sponsorship.",
               ]}
