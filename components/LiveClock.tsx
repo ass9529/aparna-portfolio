@@ -10,7 +10,7 @@ export default function LiveClock() {
     return () => clearInterval(id);
   }, []);
 
-  // Austin time (Central Time)
+  // Central Time
   const time = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/Chicago",
     hour: "2-digit",
@@ -20,7 +20,7 @@ export default function LiveClock() {
 
   return (
     <span className="whitespace-nowrap">
-      <span className="hidden sm:inline">Austin, TX</span>
+      <span className="hidden sm:inline">CT</span>
       <span className="hidden sm:inline mx-2 opacity-40">•</span>
       <span>{time}</span>
     </span>

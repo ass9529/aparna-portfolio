@@ -101,9 +101,9 @@ export default function Navbar() {
           <div className="h-14 grid grid-cols-[auto_1fr_auto] items-center">
             {/* LEFT */}
             <div className="flex items-center gap-2 text-sm font-mono text-[rgb(var(--muted))] whitespace-nowrap">
-              <span className="text-[rgb(var(--fg))] font-semibold">JOMI</span>
+              <span className="text-[rgb(var(--fg))] font-semibold">APARNA</span>
               <span className="opacity-40">/</span>
-              <span>Austin, TX</span>
+              <span>Software Engineer</span>
               <span className="opacity-40">·</span>
               <LiveClock />
             </div>
@@ -217,8 +217,8 @@ export default function Navbar() {
               {/* Centered image on mobile */}
               <div className="relative h-16 w-16 sm:h-14 sm:w-14 rounded-2xl overflow-hidden ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] mx-auto sm:mx-0">
                 <Image
-                  src="/Jomi3.JPG"
-                  alt="Template profile photo — replacement pending"
+                  src="/aparna.jpeg"
+                  alt="Aparna Sobhirala"
                   fill
                   className="object-cover"
                   sizes="64px"
@@ -239,6 +239,7 @@ export default function Navbar() {
                 </p>
 
                 <div className="mt-4 flex flex-col gap-2">
+                  <a href="https://github.com/ass9529" target="_blank" rel="noreferrer" className="rounded-xl px-3 py-2 text-sm ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] hover:opacity-90 transition">GitHub: <span className="font-medium">ass9529</span></a>
                   <a
                     href="mailto:aparnasobhirala7@gmail.com"
                     className="rounded-xl px-3 py-2 text-sm ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] hover:opacity-90 transition"

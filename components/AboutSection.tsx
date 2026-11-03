@@ -2,15 +2,8 @@
 import Image from "next/image";
 import { Brain, Eye } from "lucide-react";
 
-const techLeft = ["Python", "React.js", "JavaScript (ES6+)", "Java / Spring Boot", "Git / GitHub"];
-const techRight = ["TypeScript", "Node.js", "SQL", "Docker", "AWS"];
-
-const vibeIcons = [
-  { src: "/coffee.JPG", alt: "Coffee", rotate: "-rotate-6" },
-  { src: "/guitar.JPEG", alt: "Music", rotate: "rotate-3" },
-  { src: "/coffee2.JPG", alt: "Gym", rotate: "-rotate-3" },
-  { src: "/image6.JPG", alt: "Lifestyle", rotate: "rotate-6" },
-];
+const techLeft = ["Python", "React.js", "JavaScript (ES6+)", "Java", "Git / GitHub"];
+const techRight = ["TypeScript", "Next.js / Node.js", "PostgreSQL", "Docker", "AWS"];
 
 export default function AboutSection() {
   return (
@@ -22,8 +15,8 @@ export default function AboutSection() {
             {/* Profile image */}
             <div className="relative h-40 w-40 sm:h-44 sm:w-44 lg:h-56 lg:w-56">
               <Image
-                src="/Jomi-1.JPG"
-                alt="Template profile photo — replacement pending"
+                src="/aparna.jpeg"
+                alt="Aparna Sobhirala"
                 fill
                 className="rounded-full object-cover ring-1 ring-[rgb(var(--border))]"
                 priority
@@ -66,28 +59,9 @@ export default function AboutSection() {
               </span>
             </div>
 
-            {/* Lifestyle images */}
-            <div className="mt-5 flex items-center justify-center gap-3 lg:justify-start">
-              {vibeIcons.map((img) => (
-                <div
-                  key={img.alt}
-                  title={img.alt}
-                  className={[
-                    "relative h-12 w-12 sm:h-14 sm:w-14 rounded-xl",
-                    "bg-[rgb(var(--card))] ring-1 ring-[rgb(var(--border))] overflow-hidden",
-                    "transition-transform duration-300 ease-out will-change-transform",
-                    img.rotate,
-                    "hover:rotate-0 hover:-translate-y-0.5",
-                  ].join(" ")}
-                >
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover"
-                    sizes="56px"
-                  />
-                </div>
+            <div className="mt-5 flex flex-wrap justify-center gap-3 lg:justify-start text-sm text-[rgb(var(--muted))]">
+              {['Reading', 'Coffee', 'Working with kids'].map((interest) => (
+                <span key={interest} className="rounded-xl bg-[rgb(var(--card))] ring-1 ring-[rgb(var(--border))] px-3 py-2">{interest}</span>
               ))}
             </div>
           </div>
@@ -106,38 +80,14 @@ export default function AboutSection() {
           {/* Content */}
           <div className="mt-6 space-y-6">
             <p className="text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
-              Hi, Aparna here! I’m a{" "}
-              <span className="text-[rgb(var(--fg))] font-semibold">
-                Software Engineer
-              </span>{" "}
-              based in <span className="text-[rgb(var(--fg))] font-semibold">
-                Austin, TX
-              </span>{" "}. I enjoy building products that feel simple on the surface and solid
-              underneath. I like working across the entire lifecycle — from shaping UX
-              and APIs to implementing reliable systems and shipping to production.
+              Hi, Aparna here! I’m a <span className="text-[rgb(var(--fg))] font-semibold">Software Engineer</span> who enjoys turning real problems into useful software. I work across backend automation, full-stack applications, and AI evaluation — from talking with users to shipping a solution and measuring how well it works.
             </p>
-
             <p className="text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
-              I’m currently a{" "}
-              <span className="text-[rgb(var(--fg))] font-semibold">
-                Software Developer at Charles Schwab
-              </span>{" "}
-              and a recent graduate from the{" "}
-              <span className="text-[rgb(var(--fg))] font-semibold">
-                University of Texas at Arlington
-              </span>{" "}
-              (Fall 2025). Lately, I’ve been exploring{" "}
-              <span className="text-[rgb(var(--fg))] font-semibold">
-                machine learning
-              </span>{" "}
-              and{" "}
-              <span className="text-[rgb(var(--fg))] font-semibold">
-                computer vision
-              </span>{" "}
-              as areas of growing interest.
+              I graduated from the <span className="text-[rgb(var(--fg))] font-semibold">University of Texas at Arlington</span> with a B.S. in Computer Science in May 2026. At <span className="text-[rgb(var(--fg))] font-semibold">PlayStation</span>, I built production release automation. As an ACM research fellow, I studied gender bias in language models and built reproducible evaluation pipelines.
             </p>
-
-          
+            <p className="text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
+              Outside engineering, I love reading. I’ve also worked in Montessori schools and as a part-time barista — experiences that strengthened my patience, communication, and love of working with people.
+            </p>
 
             <p className="pt-2 text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
               Here are some of the technologies I’ve been working with:
