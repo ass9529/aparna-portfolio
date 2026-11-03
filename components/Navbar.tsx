@@ -218,7 +218,7 @@ export default function Navbar() {
               <div className="relative h-16 w-16 sm:h-14 sm:w-14 rounded-2xl overflow-hidden ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] mx-auto sm:mx-0">
                 <Image
                   src="/Jomi3.JPG"
-                  alt="Jomi Okuwobi"
+                  alt="Template profile photo — replacement pending"
                   fill
                   className="object-cover"
                   sizes="64px"
@@ -232,7 +232,7 @@ export default function Navbar() {
                   id="contact-modal-title"
                   className="text-lg font-semibold tracking-tight"
                 >
-                  Contact Jomi
+                  Contact Aparna
                 </h3>
                 <p className="mt-1 text-[15px] leading-7 text-[rgb(var(--muted))]">
                   Best way to reach me is email — LinkedIn works too.
@@ -240,23 +240,23 @@ export default function Navbar() {
 
                 <div className="mt-4 flex flex-col gap-2">
                   <a
-                    href="mailto:jomilojuokuwobi@gmail.com"
+                    href="mailto:aparnasobhirala7@gmail.com"
                     className="rounded-xl px-3 py-2 text-sm ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] hover:opacity-90 transition"
                   >
                     Email:{" "}
                     <span className="font-medium">
-                      jomilojuokuwobi@gmail.com
+                      aparnasobhirala7@gmail.com
                     </span>
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/jomiloju-okuwobi/"
+                    href="https://www.linkedin.com/in/aparna-sobhirala/"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded-xl px-3 py-2 text-sm ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] hover:opacity-90 transition"
                   >
                     LinkedIn:{" "}
-                    <span className="font-medium">jomiloju-okuwobi</span>
+                    <span className="font-medium">aparna-sobhirala</span>
                   </a>
                 </div>
               </div>

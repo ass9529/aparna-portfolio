@@ -23,7 +23,7 @@ export default function AboutSection() {
             <div className="relative h-40 w-40 sm:h-44 sm:w-44 lg:h-56 lg:w-56">
               <Image
                 src="/Jomi-1.JPG"
-                alt="Jomi Okuwobi"
+                alt="Template profile photo — replacement pending"
                 fill
                 className="rounded-full object-cover ring-1 ring-[rgb(var(--border))]"
                 priority
@@ -31,11 +31,11 @@ export default function AboutSection() {
             </div>
 
             <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight">
-              Jomi Okuwobi
+              Aparna Sobhirala
             </h2>
 
             <p className="mt-3 max-w-xl text-[15px] sm:text-base lg:text-lg leading-7 text-[rgb(var(--muted))]">
-              Indulging My Curiousity
+              Software Engineer
             </p>
 
             {/* Interests (replaces tech stack chips) */}
@@ -106,9 +106,9 @@ export default function AboutSection() {
           {/* Content */}
           <div className="mt-6 space-y-6">
             <p className="text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
-              Hi, Jomi here! I’m a{" "}
+              Hi, Aparna here! I’m a{" "}
               <span className="text-[rgb(var(--fg))] font-semibold">
-                full-stack software engineer
+                Software Engineer
               </span>{" "}
               based in <span className="text-[rgb(var(--fg))] font-semibold">
                 Austin, TX
