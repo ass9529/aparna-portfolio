@@ -16,19 +16,11 @@ type Project = {
 const projects: Project[] = [
   {
     title: "worldMap",
-    meta: "2026",
+    meta: "Personal Fun Project",
     desc: "Personalized travel share links with interactive map visualization",
     longDesc:
       "A full-stack application that lets you create personalized share links showcasing all the places you've visited. Interactive map visualization powered by Mapbox displays your travel locations, while PostgreSQL stores your travel data securely. Upload and manage travel memories with AWS S3 bucket integration.",
     tags: ["Next.js", "TypeScript", "Mapbox", "PostgreSQL", "AWS S3"],
-  },
-  {
-    title: "Sports Injury Insight & Prevention",
-    meta: "2025",
-    desc: "A full-stack injury-prevention platform",
-    longDesc:
-      "Built a full-stack web platform that analyzes soccer injury patterns to support ACL/MCL tear prevention, using Next.js, Node.js, Express, and PostgreSQL. The platform applies predictive analytics with TensorFlow.js and OpenCV to evaluate over 500 annotated movement samples, identify high-risk motions, and recommend targeted warm-ups and training drills to help reduce injury risk.",
-    tags: ["Next.js", "Node", "Postgres", "OpenCV"],
   },
   {
     title: "RoboRooks",
@@ -37,6 +29,14 @@ const projects: Project[] = [
     longDesc:
       "Built with a five-person team, RoboRooks combines computer vision, chess logic, and a robotic arm to play against a human on a physical board. I contributed to OpenCV board-state detection, Stockfish integration over UCI, ROS message passing, and the React Native mobile client. I also helped define the ROS topic interface so the team could develop subsystems independently. We demonstrated the system at Senior Design Demo Day, where visitors played full games against the robot.",
     tags: ["Python", "ROS", "OpenCV", "Stockfish", "React Native"],
+  },
+  {
+    title: "Sports Injury Insight & Prevention",
+    meta: "Personal Project",
+    desc: "A full-stack injury-prevention platform",
+    longDesc:
+      "Built a full-stack web platform that analyzes soccer injury patterns to support ACL/MCL tear prevention, using Next.js, Node.js, Express, and PostgreSQL. The platform applies predictive analytics with TensorFlow.js and OpenCV to evaluate over 500 annotated movement samples, identify high-risk motions, and recommend targeted warm-ups and training drills to help reduce injury risk.",
+    tags: ["Next.js", "Node", "Postgres", "OpenCV"],
   },
 ];
 
