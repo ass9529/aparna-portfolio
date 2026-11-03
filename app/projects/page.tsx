@@ -28,7 +28,7 @@ const projects: Project[] = [
     tags: ["Next.js", "TypeScript", "Mapbox", "PostgreSQL", "AWS S3"],
     image: "/worldmap.png",
     href: "https://world-map-peach.vercel.app",
-    codeHref: "https://github.com/jomilojuokuwobi72-oss/WorldMap",
+    codeHref: "https://github.com/ass9529/WorldMap",
     featured: true,
   },
   {
@@ -197,6 +197,17 @@ export default function ProjectsPage() {
                         className="underline underline-offset-4 hover:opacity-75 transition"
                       >
                         Live
+                      </a>
+                    )}
+                    {project.codeHref && (
+                      <a
+                        href={project.codeHref}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1.5 underline underline-offset-4 hover:opacity-75 transition"
+                      >
+                        <Github className="h-4 w-4" />
+                        Code
                       </a>
                     )}
                   </div>
