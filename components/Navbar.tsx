@@ -103,7 +103,7 @@ export default function Navbar() {
             <div className="flex items-center gap-2 text-sm font-mono text-[rgb(var(--muted))] whitespace-nowrap">
               <span className="text-[rgb(var(--fg))] font-semibold">APARNA</span>
               <span className="opacity-40">/</span>
-              <span>Software Engineer</span>
+              <span>Dallas, Texas</span>
               <span className="opacity-40">·</span>
               <LiveClock />
             </div>
@@ -217,7 +217,7 @@ export default function Navbar() {
               {/* Centered image on mobile */}
               <div className="relative h-16 w-16 sm:h-14 sm:w-14 rounded-2xl overflow-hidden ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] mx-auto sm:mx-0">
                 <Image
-                  src="/aparna.jpeg"
+                  src="/aparna-lifestyle.jpeg"
                   alt="Aparna Sobhirala"
                   fill
                   className="object-cover"

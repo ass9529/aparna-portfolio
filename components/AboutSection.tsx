@@ -15,7 +15,7 @@ export default function AboutSection() {
             {/* Profile image */}
             <div className="relative h-40 w-40 sm:h-44 sm:w-44 lg:h-56 lg:w-56">
               <Image
-                src="/aparna.jpeg"
+                src="/aparna-lifestyle.jpeg"
                 alt="Aparna Sobhirala"
                 fill
                 className="rounded-full object-cover ring-1 ring-[rgb(var(--border))]"
@@ -60,7 +60,7 @@ export default function AboutSection() {
             </div>
 
             <div className="mt-5 flex flex-wrap justify-center gap-3 lg:justify-start text-sm text-[rgb(var(--muted))]">
-              {['Reading', 'Coffee', 'Working with kids'].map((interest) => (
+              {['Reading', 'Coffee', 'Robotics'].map((interest) => (
                 <span key={interest} className="rounded-xl bg-[rgb(var(--card))] ring-1 ring-[rgb(var(--border))] px-3 py-2">{interest}</span>
               ))}
             </div>
