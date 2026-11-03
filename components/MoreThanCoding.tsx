@@ -2,7 +2,7 @@ export default function MoreThanCoding() {
   return (
     <div className="mt-4 rounded-2xl border-2 border-[rgb(var(--border))] bg-[rgb(var(--card))] p-5">
       <p className="text-[15px] leading-6 text-[rgb(var(--muted))]">
-        A “life collage” area — photos, hobbies, and (later) Spotify stats.
+        A “life collage” area - photos, hobbies, and (later) Spotify stats.
       </p>
 
       {/* Collage placeholders */}
@@ -20,7 +20,7 @@ export default function MoreThanCoding() {
         </div>
 
         <div className="mt-3 space-y-2">
-          {["Track name — Artist", "Track name — Artist", "Track name — Artist"].map((x) => (
+          {["Track name - Artist", "Track name - Artist", "Track name - Artist"].map((x) => (
             <div key={x} className="flex items-center justify-between text-sm">
               <span className="truncate">{x}</span>
               <span className="text-[rgb(var(--muted))]">2:58</span>

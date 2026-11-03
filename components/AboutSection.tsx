@@ -15,7 +15,7 @@ export default function AboutSection() {
             {/* Profile image */}
             <div className="relative h-40 w-40 sm:h-44 sm:w-44 lg:h-56 lg:w-56">
               <Image
-                src="/aparna-lifestyle.jpeg"
+                src="/aparna.jpeg"
                 alt="Aparna Sobhirala"
                 fill
                 className="rounded-full object-cover ring-1 ring-[rgb(var(--border))]"
@@ -80,13 +80,13 @@ export default function AboutSection() {
           {/* Content */}
           <div className="mt-6 space-y-6">
             <p className="text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
-              Hi, Aparna here! I’m a <span className="text-[rgb(var(--fg))] font-semibold">Software Engineer</span> who enjoys turning real problems into useful software. I work across backend automation, full-stack applications, and AI evaluation — from talking with users to shipping a solution and measuring how well it works.
+              Hi, Aparna here! I’m a <span className="text-[rgb(var(--fg))] font-semibold">Software Engineer</span> who enjoys turning real problems into useful software. I work across backend automation, full-stack applications, and AI evaluation, from talking with users to shipping a solution and measuring how well it works.
             </p>
             <p className="text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
               I graduated from the <span className="text-[rgb(var(--fg))] font-semibold">University of Texas at Arlington</span> with a B.S. in Computer Science in May 2026. At <span className="text-[rgb(var(--fg))] font-semibold">PlayStation</span>, I built production release automation. As an ACM research fellow, I studied gender bias in language models and built reproducible evaluation pipelines.
             </p>
             <p className="text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">
-              Outside engineering, I love reading. I’ve also worked in Montessori schools and as a part-time barista — experiences that strengthened my patience, communication, and love of working with people.
+              Outside engineering, I love reading. I’ve also worked in Montessori schools and as a part-time barista. These experiences strengthened my patience, communication, and love of working with people.
             </p>
 
             <p className="pt-2 text-[15px] sm:text-base lg:text-lg leading-8 text-[rgb(var(--muted))]">

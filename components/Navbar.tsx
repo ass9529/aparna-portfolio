@@ -217,7 +217,7 @@ export default function Navbar() {
               {/* Centered image on mobile */}
               <div className="relative h-16 w-16 sm:h-14 sm:w-14 rounded-2xl overflow-hidden ring-1 ring-[rgb(var(--border))] bg-[rgb(var(--bg))] mx-auto sm:mx-0">
                 <Image
-                  src="/aparna-lifestyle.jpeg"
+                  src="/aparna.jpeg"
                   alt="Aparna Sobhirala"
                   fill
                   className="object-cover"
@@ -235,7 +235,7 @@ export default function Navbar() {
                   Contact Aparna
                 </h3>
                 <p className="mt-1 text-[15px] leading-7 text-[rgb(var(--muted))]">
-                  Best way to reach me is email — LinkedIn works too.
+                  Best way to reach me is email - LinkedIn works too.
                 </p>
 
                 <div className="mt-4 flex flex-col gap-2">
