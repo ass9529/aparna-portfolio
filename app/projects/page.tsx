@@ -40,12 +40,12 @@ const projects: Project[] = [
     tags: ["Next.js", "Node", "Postgres", "OpenCV"],
   },
   {
-    title: "TickerTalk",
-    meta: "2025",
-    desc: "NLP-Powered Financial Search Tool",
+    title: "RoboRooks",
+    meta: "Senior Design Capstone",
+    desc: "An autonomous chess-playing robot",
     longDesc:
-      "Developed during a Schwab new hire company hackathon, an NLP-powered financial search tool that interprets free-text user queries and maps them to relevant stocks and ETFs, improving discoverability. Enables customers to find stocks and ETFs directly without needing to visit competitor platforms, improving retention and user engagement.",
-    tags: ["Next.js", "Supabase", "Tailwind"],
+      "Built with a five-person team, RoboRooks combines computer vision, chess logic, and a robotic arm to play against a human on a physical board. I contributed to OpenCV board-state detection, Stockfish integration over UCI, ROS message passing, and the React Native mobile client. I also helped define the ROS topic interface so the team could develop subsystems independently. We demonstrated the system at Senior Design Demo Day, where visitors played full games against the robot.",
+    tags: ["Python", "ROS", "OpenCV", "Stockfish", "React Native"],
   },
 ];
 
