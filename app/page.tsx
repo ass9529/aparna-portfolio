@@ -42,7 +42,7 @@ const projects: Project[] = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main id="home" className="min-h-screen">
       <Navbar />
 
       <div className="mx-auto max-w-6xl px-4 py-10 sm:py-14">
@@ -57,23 +57,34 @@ export default function Home() {
 
           <div className="mt-6 space-y-5">
             <ExperienceCard
-              role="Software Engineer"
-              org="Charles Schwab"
-              date="2025 — Present"
+              role="Software Engineering Intern"
+              org="Sony Interactive Entertainment / PlayStation"
+              date="May — Aug 2025"
               bullets={[
-                "Working as a Software Developer focused on observability and reliability for large-scale distributed systems across on-prem and cloud environments, building Python-based telemetry pipelines that transformed infrastructure and service metrics into production dashboards and alerts using Grafana, Splunk, OpenTelemetry, and Wavefront.",
+                "Designed and shipped a webhook-driven Python service that combined change history across four repositories with Jira records and delivered release documentation in Slack.",
+                "Integrated the OpenAI API where human-authored records were missing, validated output against historical production data, and reduced manual effort by roughly 95%, saving an estimated 10–15 engineering hours monthly.",
+                "Monitored the service after launch, investigated production issues, and documented it for other engineers. Worked with Jenkins, Docker, Kubernetes, and AWS Secrets Manager.",
               ]}
-              tags={["Python", "Observability", "Grafana", "Splunk", "Wavefront"]}
+              tags={["Python", "OpenAI API", "Jira", "Slack", "CI/CD"]}
             />
-
             <ExperienceCard
-              role="AI Model Trainer"
-              org="Outlier AI"
-              date="2024"
+              role="Research Engineering Fellow"
+              org="ACM, UT Arlington"
+              date="Jan — Apr 2025"
               bullets={[
-                "Contributed to the training, evaluation, and refinement of Large Language Models (LLMs) across 5+ high-impact projects, improving model accuracy and reliability while performing in-depth safety and bias assessments to ensure ethical, production-ready outputs.",
+                "Built a reproducible Python evaluation pipeline to investigate gender bias in machine translation across seven language models and 4,900 outputs.",
+                "Developed a Pronoun Bias Index to compare results across model families and presented findings to 130+ attendees at the UTA STEM Symposium.",
               ]}
-              tags={["LLMs", "Model Evaluation", "AI Safety", "Bias Assessment"]}
+              tags={["Python", "LLM Evaluation", "Bias Analysis", "Research"]}
+            />
+            <ExperienceCard
+              role="Corporate Officer & Sponsorship Lead"
+              org="HackUTA"
+              date="Jan — Oct 2025"
+              bullets={[
+                "Led a 15-member team and managed sponsorship outreach for a 500+ participant hackathon, pitching 10+ technology companies and securing $15,000+ in sponsorship.",
+              ]}
+              tags={["Leadership", "Partnerships", "Community"]}
             />
           </div>
         </section>
@@ -115,8 +126,7 @@ export default function Home() {
         <section id="contact">
           <h2 className="text-xl font-semibold">Contact</h2>
           <p className="mt-4 text-[15px] leading-7 text-[rgb(var(--muted))]">
-            Best way to reach me is email. You can also find me on GitHub and
-            LinkedIn above.
+            Reach me at <a className="underline underline-offset-4" href="mailto:aparnasobhirala7@gmail.com">aparnasobhirala7@gmail.com</a>, or find me on <a className="underline underline-offset-4" href="https://github.com/ass9529" target="_blank" rel="noreferrer">GitHub</a> and <a className="underline underline-offset-4" href="https://www.linkedin.com/in/aparna-sobhirala/" target="_blank" rel="noreferrer">LinkedIn</a>.
           </p>
         </section>
 
